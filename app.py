@@ -13,6 +13,11 @@ import gradio as gr
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+
+# ----------------- ensure model weights are downloaded -----------------
+from download_models import ensure_models_downloaded
+ensure_models_downloaded()
+
 from ship_inference import ClassificationPipeline
 
 CONFIG = json.loads((HERE / "app_config.json").read_text())

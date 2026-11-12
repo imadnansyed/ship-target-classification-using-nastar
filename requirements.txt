@@ -10,3 +10,4 @@ opencv-python
 tifffile
 imagecodecs
 pillow
+gdown
