@@ -25,11 +25,13 @@ Then open <http://127.0.0.1:7860> in your browser. You can either pick one of th
 
 ## Project Structure
 
-| Path | Description |
-|------|-------------|
-| `models/` | Trained models (`weights.pt` and `model_card.json`) |
-| `examples/` | Hold-out test patches |
-| `results/`, `figures/` | Evaluation outputs |
-| `ship_preprocess.py` | Preprocessing stage of the pipeline |
-| `ship_inference.py` | Inference stage of the pipeline |
-| `ship_report.py` | Report generation stage of the pipeline |
+| Path                   | Description                                                                                |
+|------------------------|--------------------------------------------------------------------------------------------|
+| `models/`              | Trained models (`weights.pt` and `model_card.json`), downloaded automatically on first run |
+| `examples/`            | Hold-out test patches                                                                      |
+| `results/`, `figures/` | Evaluation outputs (`figures/` is downloaded automatically on first run)                   |
+| `download_models.py`   | Downloads missing model weights and figure files from Google Drive                         |
+| `ship_preprocess.py`   | Preprocessing stage of the pipeline                                                        |
+| `ship_inference.py`    | Inference stage of the pipeline                                                            |
+| `ship_report.py`       | Report generation stage of the pipeline                                                    |
+| `app_config.json`      | App configuration: class names, model list, thresholds and Google Drive IDs                |
