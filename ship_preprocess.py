@@ -1,9 +1,4 @@
-"""Deterministic SAR preprocessing and input validation (Section 13).
-
-Shared by the notebook and the analyst app, so that training and serving use
-exactly the same numbers. Needs only numpy, OpenCV and tifffile.
-"""
-import json
+mport json
 from pathlib import Path
 
 import cv2

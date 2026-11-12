@@ -1,9 +1,3 @@
-"""Inference pipeline for the Ship Target Classification System (Section 13).
-
-Loads a trained run (weights.pt + model_card.json), preprocesses an uploaded SAR patch exactly as in
-training, predicts the ship type with a calibrated confidence, flags low-confidence results and can
-explain a prediction with Grad-CAM.
-"""
 import json
 import time
 from pathlib import Path

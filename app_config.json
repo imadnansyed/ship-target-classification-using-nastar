@@ -1,10 +1,5 @@
 {
-  "class_names": [
-    "Cargo",
-    "Tanker",
-    "Fishing",
-    "Passenger"
-  ],
+  "class_names": ["Cargo", "Tanker", "Fishing", "Passenger"],
   "models": [
     {
       "label": "CNN (EfficientNet-B0, pretrained)",
@@ -39,6 +34,12 @@
       "temperature": 1.1447830423165066
     }
   ],
+  "figures": {
+    "label": "figures",
+    "drive_id": "1p1oqZNAKQU6VyfHM-q4oK21pC-wULCv8",
+    "dir": "figures",
+    "expected_files": 16
+  },
   "default_model": "CNN (EfficientNet-B0, pretrained)",
   "main_scheme": "cv_mmsi",
   "created": "2026-11-08 06:40:34"
