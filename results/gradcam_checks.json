@@ -1,0 +1,24 @@
+{
+  "cnn": {
+    "run": "efficientnet_b0-pre_holdout_log_resize_256_final_s42",
+    "arch": "efficientnet_b0",
+    "n_checked": 60,
+    "deletion_drop_gradcam": 0.4583568399151166,
+    "deletion_drop_random": 0.26913992284486693,
+    "share_gradcam_beats_random": 0.7833333333333333,
+    "corr_predicted_vs_runnerup": 0.3028166519844613,
+    "centre_mass_fraction": 0.3431150875908012,
+    "centre_area_fraction": 0.18367346938775508
+  },
+  "swin": {
+    "run": "swin_tiny-pre_holdout_log_resize_256_final_s42",
+    "arch": "swin_tiny",
+    "n_checked": 60,
+    "deletion_drop_gradcam": 0.4155349372730901,
+    "deletion_drop_random": 0.12656998907526334,
+    "share_gradcam_beats_random": 0.9,
+    "corr_predicted_vs_runnerup": 0.1186357623097456,
+    "centre_mass_fraction": 0.43886887008945147,
+    "centre_area_fraction": 0.18367346938775508
+  }
+}

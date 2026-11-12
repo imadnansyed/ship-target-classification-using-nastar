@@ -1,0 +1,12 @@
+torch
+torchvision
+timm==1.0.31
+gradio==6.31.0
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+tifffile
+imagecodecs
+pillow

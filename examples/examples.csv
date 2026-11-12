@@ -1,0 +1,13 @@
+file,true_label,shoreline
+example_01.tif,Cargo,offshore
+example_02.tif,Cargo,offshore
+example_03.tif,Cargo,offshore
+example_04.tif,Tanker,offshore
+example_05.tif,Tanker,offshore
+example_06.tif,Tanker,offshore
+example_07.tif,Fishing,offshore
+example_08.tif,Fishing,offshore
+example_09.tif,Fishing,offshore
+example_10.tif,Passenger,offshore
+example_11.tif,Passenger,offshore
+example_12.tif,Passenger,inshore

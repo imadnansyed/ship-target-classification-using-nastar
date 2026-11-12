@@ -1,0 +1,2 @@
+run_name,n,acc,macro_precision,macro_recall,macro_f1,bal_acc,flagged share
+efficientnet_b0-pre_holdout_log_resize_256_final_s42,151,0.5298013245033113,0.5145625731832628,0.539331738871565,0.5212036855715397,0.539331738871565,0.1986754966887417

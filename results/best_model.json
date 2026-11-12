@@ -1,0 +1,18 @@
+{
+  "label": "EfficientNet-B0 (pretrained) [final]",
+  "arch": "efficientnet_b0",
+  "pretrained": true,
+  "recipe": "log_resize_256",
+  "tag": "_final",
+  "scheme": "cv_mmsi",
+  "reason": "smallest of the networks within one std of the best (Swin-T (pretrained) [final], EfficientNet-B0 (pretrained) [final])",
+  "tied_with_best": [
+    "EfficientNet-B0 (pretrained) [final]"
+  ],
+  "macro_f1_mean": 0.5603567740531006,
+  "macro_f1_std": 0.01792428706503606,
+  "acc_mean": 0.5653774962817433,
+  "acc_std": 0.01627696285571039,
+  "app_run_name": "efficientnet_b0-pre_holdout_log_resize_256_final_s42",
+  "created": "2026-11-08 06:27:32"
+}
