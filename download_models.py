@@ -6,7 +6,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 CONFIG_PATH = HERE / "app_config.json"
 MIN_VALID_SIZE_BYTES = 200_000
-DEFAULT_REPORT_FILE_COUNT = 16
+DEFAULT_REPORT_FILE_COUNT = 17
 
 
 def _import_gdown():

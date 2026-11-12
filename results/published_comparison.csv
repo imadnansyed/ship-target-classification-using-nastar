@@ -1,0 +1,12 @@
+model,accuracy,balanced acc,macro-F1,protocol
+Paper: EfficientNet,0.619,0.581,0.596,"10-fold, 70/30 split"
+Ours: Swin-T (pretrained) [final],0.5866433110550247,0.5876975125149573,0.5788709498801697,"5-fold, vessel-grouped"
+Ours: AIS length + width only (no image),0.6226189524190324,0.5633155569370949,0.5710938199243566,"5-fold, vessel-grouped"
+Paper: ViT (TinyViT),0.58,0.557,0.562,"10-fold, 70/30 split"
+Ours: EfficientNet-B0 (pretrained) [final],0.5653774962817433,0.5650407911404567,0.5603567740531006,"5-fold, vessel-grouped"
+Paper: DenseNet121,0.5820000000000001,0.545,0.555,"10-fold, 70/30 split"
+Paper: ResNeXt,0.5710000000000001,0.54,0.547,"10-fold, 70/30 split"
+Ours: ResNet-18 (pretrained) [final],0.5048436351038353,0.5401640696864051,0.5020738168684896,"5-fold, vessel-grouped"
+Paper: ResNet50,0.53,0.493,0.498,"10-fold, 70/30 split"
+Ours: Custom CNN [final],0.4235732465906918,0.42856208307409044,0.3985736914645856,"5-fold, vessel-grouped"
+Ours: Always the most common class,0.40081591474082306,0.25,0.14254840055354961,"5-fold, vessel-grouped"
