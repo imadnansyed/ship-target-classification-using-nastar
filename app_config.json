@@ -9,7 +9,7 @@
     {
       "label": "CNN (EfficientNet-B0, pretrained)",
       "run_dir": "models/efficientnet_b0-pre_holdout_log_resize_256_final_s42",
-      "gdrive_url": "https://drive.google.com/file/d/1o8aHiSOYr_eehwCwWgk_lwkLMN8Txx_0/view?usp=sharing",
+      "gdrive_id": "1o8aHiSOYr_eehwCwWgk_lwkLMN8Txx_0",
       "arch": "efficientnet_b0",
       "threshold": 0.48312944173812866,
       "temperature": 2.7628419284203574
@@ -17,7 +17,7 @@
     {
       "label": "CNN baseline (custom, from scratch)",
       "run_dir": "models/custom_holdout_log_resize_256_final_s42",
-      "gdrive_url": "https://drive.google.com/file/d/1E_gIRBPmZrLHykF390Pf5SaPSkCWD_Xb/view?usp=sharing",
+      "gdrive_id": "1E_gIRBPmZrLHykF390Pf5SaPSkCWD_Xb",
       "arch": "custom",
       "threshold": 0.3856448233127594,
       "temperature": 0.9265978826121632
@@ -25,7 +25,7 @@
     {
       "label": "CNN (ResNet-18, pretrained)",
       "run_dir": "models/resnet18-pre_holdout_log_resize_256_final_s42",
-      "gdrive_url": "https://drive.google.com/file/d/1_47nsMQQxJRhr7oZve1k0hfIyGy3WgQ6/view?usp=sharing",
+      "gdrive_id": "1_47nsMQQxJRhr7oZve1k0hfIyGy3WgQ6",
       "arch": "resnet18",
       "threshold": 0.4037982225418091,
       "temperature": 0.9598350778308344
@@ -33,7 +33,7 @@
     {
       "label": "Swin Transformer (advanced, pretrained)",
       "run_dir": "models/swin_tiny-pre_holdout_log_resize_256_final_s42",
-      "gdrive_url": "https://drive.google.com/file/d/1R6O_5FMwQ54ZxxkwaaHgmtmPF4JJlclR/view?usp=sharing",
+      "gdrive_id": "1R6O_5FMwQ54ZxxkwaaHgmtmPF4JJlclR",
       "arch": "swin_tiny",
       "threshold": 0.5093117356300354,
       "temperature": 1.1447830423165066
